@@ -4,12 +4,15 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Context\" />
     <Folder Include="Controllers\" />
     <Folder Include="Model\" />
+    <Folder Include="Pages\" />
   </ItemGroup>
 
   <ItemGroup>
